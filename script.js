@@ -14,7 +14,7 @@ function processData(formData) {
   var status = formData.status;
 
   // Get the Google Sheet by its ID (you can find the ID in the URL)
-  var sheet = SpreadsheetApp.openById('YOUR_GOOGLE_SHEET_ID').getSheetByName('FormData');
+  var sheet = SpreadsheetApp.openById('1FuBxu0poj0u8yWPOGv-GjfN6WZfUbVnSPMYn4aLACRo').getSheetByName('FormData');
 
   // Append data to the sheet
   sheet.appendRow([firstName, middleName, lastName, age, caseType, status]);
